@@ -16,8 +16,7 @@ class Solution:
                 elif operation == "*":
                     stack.append(stack.pop() * current_num)
                 elif operation == "/":
-                    stack.append(int(stack.pop() / current_num))  # Truncate towards zero
-                
+                    stack.append(int(stack.pop() / current_num))
                 operation = char
                 current_num = 0
         
