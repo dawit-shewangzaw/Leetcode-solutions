@@ -19,15 +19,3 @@ class Solution:
                 right -= 1
                 
         return max_area
-
-        # output = 1
-
-        # for i in range(len(height) - 1):
-        #     for j in range(1, len(height)):
-        #         min_value = min(height[i] , height[j]) 
-        #         max_value = (j - i) * min_value
-
-        #         if max_value > output:
-        #             output = max_value
-                    
-        # return output
