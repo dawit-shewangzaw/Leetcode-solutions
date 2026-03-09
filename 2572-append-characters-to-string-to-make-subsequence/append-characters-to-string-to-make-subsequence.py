@@ -1,8 +1,6 @@
-# class Solution:
-#     def appendCharacters(self, s: str, t: str) -> int:
-        
 class Solution:
     def appendCharacters(self, s: str, t: str) -> int:
+        
         n, m = len(s), len(t)
         j = 0
         
