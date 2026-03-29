@@ -11,7 +11,7 @@ class Solution:
                 
                 if duplicates_count > 1:
                     left = last_double_index
-                    duplicates_count = 1 # We now only have the current duplicate pair
+                    duplicates_count = 1
                 
                 last_double_index = right
 
