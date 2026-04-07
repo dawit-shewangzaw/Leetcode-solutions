@@ -14,8 +14,7 @@ class Solution:
         while tail.next:
             tail = tail.next
             length += 1
-            print("length " + str(length))
-        
+            
         k %= length
         if k == 0:
             return head
