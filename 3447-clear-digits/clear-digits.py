@@ -2,7 +2,6 @@ class Solution:
     def clearDigits(self, s: str) -> str:
         ans = []
         for char in s:
-            print("cahr " + str(char))
             if char.isdigit():
             # if '0' <= char <= '9':
                 if ans:
